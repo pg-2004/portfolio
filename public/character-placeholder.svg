@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 170" fill="none">
+  <!-- placeholder rider, facing right — swap for the real character asset via CHARACTER_SRC in components/Character.tsx -->
+
+  <!-- ground contact shadow -->
+  <ellipse cx="108" cy="160" rx="78" ry="8" fill="#04140a" opacity="0.35" />
+
+  <!-- tail -->
+  <path d="M30 78c-14 6-20 22-12 38 4 9 12 14 10 24-6-4-16-16-18-30-3-16 4-30 20-32z" fill="#5b3a22" />
+
+  <!-- hind legs -->
+  <rect x="46" y="112" width="13" height="42" rx="5" fill="#8a5a30" />
+  <rect x="46" y="146" width="13" height="12" rx="3" fill="#241a10" />
+  <rect x="72" y="116" width="13" height="40" rx="5" fill="#7a4e29" />
+  <rect x="72" y="148" width="13" height="10" rx="3" fill="#241a10" />
+
+  <!-- body -->
+  <path d="M34 96c0-26 24-44 60-44 30 0 56 14 66 34 6 12 4 22-4 26-4 10-16 16-30 16H70c-22 0-36-14-36-32z" fill="#b9793f" />
+
+  <!-- front legs -->
+  <rect x="118" y="118" width="13" height="40" rx="5" fill="#8a5a30" />
+  <rect x="118" y="150" width="13" height="10" rx="3" fill="#241a10" />
+  <rect x="142" y="120" width="13" height="38" rx="5" fill="#7a4e29" />
+  <rect x="142" y="150" width="13" height="10" rx="3" fill="#241a10" />
+
+  <!-- neck + head -->
+  <path d="M150 62c14-10 30-12 40-4 8 6 10 16 4 26-4 8-4 16 2 22-10 2-20-2-26-10-8 4-18 4-24-2-8-8-6-22 4-32z" fill="#b9793f" />
+  <path d="M186 58c8-2 16 0 20 6 3 5 2 10-2 13-6-6-12-12-18-19z" fill="#8a5a30" />
+
+  <!-- mane -->
+  <path d="M150 60c-6-8-8-18-2-26 6 4 10 12 10 20-3 2-6 4-8 6z" fill="#5b3a22" />
+  <path d="M138 74c-6-6-8-16-2-24 5 4 9 12 8 20-2 2-4 3-6 4z" fill="#5b3a22" />
+
+  <!-- saddle -->
+  <path d="M78 66c14-8 32-10 46-4 6 3 8 9 4 14-4 4-10 5-16 3-12-5-24-6-34-13z" fill="#caa24a" />
+
+  <!-- rider left leg (draped) -->
+  <path d="M92 78c-4 16-6 32-4 46 1 6 6 9 11 8 4-16 6-34 5-50-3-3-8-4-12-4z" fill="#1c1f2b" />
+  <rect x="90" y="122" width="16" height="12" rx="4" fill="#241a10" />
+
+  <!-- cape -->
+  <path d="M72 46c-16 6-26 20-24 38 2 16 12 28 8 40-14-8-24-24-24-42 0-20 14-36 32-40z" fill="#c6302b" />
+  <path d="M72 46c-10 10-14 24-10 38 3 10 10 16 8 24-10-8-16-20-16-34 0-14 8-24 18-28z" fill="#a92622" opacity="0.6" />
+
+  <!-- torso -->
+  <path d="M74 40c0-9 8-16 20-16s20 7 20 16v30c0 8-9 14-20 14s-20-6-20-14V40z" fill="#2e7d78" />
+  <path d="M74 44h40v10H74z" fill="#245f5b" />
+
+  <!-- belt -->
+  <rect x="74" y="58" width="40" height="7" rx="2" fill="#3a2a10" />
+  <rect x="90" y="58" width="8" height="7" fill="#caa24a" />
+
+  <!-- arm holding reins -->
+  <path d="M108 44c8 2 14 8 16 16 1 5-1 9-5 10-6-6-11-14-13-22 0-2 1-3 2-4z" fill="#2e7d78" />
+  <path d="M119 68c4 4 8 8 14 10" stroke="#3a2a10" stroke-width="2" stroke-linecap="round" />
+
+  <!-- head -->
+  <circle cx="66" cy="26" r="15" fill="#e2ac7c" />
+
+  <!-- beard -->
+  <path d="M56 30c1 7 5 12 10 13 5-1 9-6 10-13-4 4-16 4-20 0z" fill="#3a2a10" />
+
+  <!-- crown -->
+  <path d="M50 16c2-6 4-9 6-9s2 4 3 8c3-6 5-9 7-9s3 5 3 9c3-5 5-8 7-8s3 4 2 9c-6 3-22 3-28 0z" fill="#e8b83a" />
+  <circle cx="53" cy="14" r="1.6" fill="#c6302b" />
+  <circle cx="60" cy="12" r="1.6" fill="#2e7d78" />
+  <circle cx="67" cy="14" r="1.6" fill="#c6302b" />
+</svg>

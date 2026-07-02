@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: `${siteConfig.name} — ${siteConfig.title}`,
   description:
-    "An interactive museum-style portfolio by Piyush Gupta — software engineer specialising in Big Data & AI. Explore the exhibits: about, experience, projects, skills and contact.",
+    "An interactive jungle-museum portfolio by Piyush Gupta — software engineer specialising in Big Data & AI. Walk between the stone exhibits: about, experience, projects, skills and contact.",
   authors: [{ name: siteConfig.name }],
   keywords: [
     "Piyush Gupta",
@@ -32,13 +32,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: `${siteConfig.name} — ${siteConfig.title}`,
     description:
-      "A calm, immersive museum walkthrough of Piyush Gupta's work in software, data and AI.",
+      "A calm, immersive jungle-ruins walkthrough of Piyush Gupta's work in software, data and AI.",
     type: "website",
   },
 };
 
 export const viewport: Viewport = {
-  themeColor: "#f7f7f5",
+  themeColor: "#0f1b12",
   width: "device-width",
   initialScale: 1,
 };
