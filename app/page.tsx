@@ -1,5 +1,5 @@
-import Museum from "@/components/Museum";
+import SceneRoot from "@/components/SceneRoot";
 
 export default function Home() {
-  return <Museum />;
+  return <SceneRoot />;
 }

@@ -770,3 +770,57 @@ body {
     display: none;
   }
 }
+
+/* ===================================================================
+   3D scene (react-three-fiber) — the Canvas wrapper + Html pillar labels.
+   Everything else on top (title, wordmark, scrim/panel) reuses the exact
+   same fixed-position chrome rules above, unchanged.
+   =================================================================== */
+.jungle-3d {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+}
+.jungle-3d canvas {
+  display: block;
+  outline: none;
+}
+
+.pillar-label-3d {
+  z-index: 10;
+  pointer-events: none;
+}
+.pillar-label-3d .pillar-face {
+  width: 128px;
+  pointer-events: auto;
+}
+
+/* Html labels are screen-space (fixed pixel size regardless of camera
+   distance), so on narrow viewports six of them at full width would
+   overlap — shrink progressively, same spirit as the 2D pillar breakpoints. */
+@media (max-width: 900px) {
+  .pillar-label-3d .pillar-face {
+    width: 96px;
+  }
+}
+@media (max-width: 620px) {
+  .pillar-label-3d .pillar-face {
+    width: 70px;
+    padding: 8px 8px 7px;
+  }
+  .pillar-label-3d .pillar-num {
+    font-size: 34px;
+  }
+}
+@media (max-width: 480px) {
+  .pillar-label-3d .pillar-face {
+    width: 50px;
+    padding: 6px 6px 5px;
+  }
+  .pillar-label-3d .pillar-num {
+    font-size: 24px;
+  }
+  .pillar-label-3d .plaque {
+    display: none;
+  }
+}
